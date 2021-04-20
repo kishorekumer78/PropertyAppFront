@@ -1,0 +1,17 @@
+<p>
+  property-details works!
+</p>
+
+<div *ngIf="property" class="card" style="width: 50%;">
+  <p class="card-header">ID of the property <strong>{{propertyId}}</strong></p>
+  <p class="card-header">Name of the property <strong>{{property.name}}</strong></p>
+  <p class="card-header">Price of the property <strong>{{property.price}}</strong></p>
+  <p class="card-header">Type of Property <strong>{{property.type}}</strong></p>
+  <p class="card-header">Nature : For <strong>{{property.sellRent === 1 ? "Buying": "Renting"}}</strong></p>
+</div>
+
+<button class="btn btn-outline-primary" (click)="onClickBack(property.sellRent)"> Back</button>
+<br />
+<hr />
+<br />
+<button class="btn btn-outline-primary" (click)="onClickNext()">Next</button>

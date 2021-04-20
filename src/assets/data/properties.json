@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Real Estate Bldg",
+        "type": "House",
+        "price": 12000,
+        "image": "prop-1.png",
+        "sellRent": 1
+    },
+    {
+        "id": 2,
+        "name": "Blue Crown",
+        "type": "House",
+        "price": 11000,
+        "image": "prop-2.png",
+        "sellRent": 2
+    },
+    {
+        "id": 3,
+        "name": "Empire State",
+        "type": "House",
+        "price": 19000,
+        "image": "prop-2.png",
+        "sellRent": 1
+    },
+    {
+        "id": 4,
+        "name": "Nile Realtor",
+        "type": "House",
+        "price": 10000,
+        "image": "prop-3.png",
+        "sellRent": 1
+    },
+    {
+        "id": 5,
+        "name": "Benzamin House",
+        "type": "House",
+        "price": 21000,
+        "image": "prop-4.png",
+        "sellRent": 2
+    },
+    {
+        "id": 6,
+        "name": "Nizel State",
+        "type": "House",
+        "price": 45000,
+        "image": "prop-5.png",
+        "sellRent": 1
+    },
+    {
+        "id": 7,
+        "name": "Brahma Mansion",
+        "type": "House",
+        "price": 31000,
+        "sellRent": 2
+    }
+]
